@@ -15,12 +15,17 @@ body {
     overflow-x: hidden;
 }
 
-/* Background dengan warna emas lebih mencolok & elegan */
+/* Background dengan tema estetika bunga putih dan aksen kuning emas */
 .screen {
     width: 100%;
     max-width: 480px;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fffdf9 0%, #f4eee1 100%);
+    background: #fdfbf7;
+    background-image: 
+        radial-gradient(#f3e5ab 15%, transparent 16%),
+        radial-gradient(#e6c687 15%, transparent 16%);
+    background-size: 60px 60px;
+    background-position: 0 0, 30px 30px;
     box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
     position: relative;
     display: flex;
@@ -34,19 +39,39 @@ body {
     display: none !important;
 }
 
-/* Halaman Pertama */
+/* Halaman Pertama dengan Ornamen Bunga Estetik */
 .floral-frame {
     text-align: center;
     border: 3px solid #d4af37;
-    padding: 35px 20px;
+    padding: 40px 20px;
     border-radius: 20px;
-    background: rgba(255, 255, 255, 0.92);
-    box-shadow: 0 10px 35px rgba(212, 175, 55, 0.3);
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 10px 35px rgba(212, 175, 55, 0.25);
     width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Dekorasi Bunga ala Referensi Foto */
+.floral-frame::before, .floral-frame::after {
+    content: "🌸 🌿";
+    position: absolute;
+    font-size: 26px;
+    opacity: 0.85;
+}
+
+.floral-frame::before {
+    top: 10px;
+    left: 12px;
+}
+
+.floral-frame::after {
+    bottom: 10px;
+    right: 12px;
 }
 
 .arabic-top {
-    font-size: 18px;
+    font-size: 16px;
     color: #b8860b;
     font-weight: bold;
     display: block;
@@ -55,7 +80,7 @@ body {
 
 .welcome-title {
     font-family: 'Cinzel', serif;
-    font-size: 34px;
+    font-size: 32px;
     color: #1a1816;
     margin: 10px 0;
     font-weight: 800;
@@ -121,9 +146,9 @@ body {
     margin-bottom: 12px;
 }
 
-/* Banner Khusus Keluarga Bani Mu'alim */
+/* Banner Keluarga Bani Mu'alim */
 .family-banner {
-    background: linear-gradient(135deg, #fff8dc 0%, #fef3c7 100%);
+    background: linear-gradient(135deg, #fffcf0 0%, #fef3c7 100%);
     border: 1.5px solid #d4af37;
     padding: 12px 15px;
     border-radius: 10px;
