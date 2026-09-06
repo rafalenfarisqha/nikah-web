@@ -39,7 +39,6 @@ body {
     background: rgba(255, 255, 255, 0.94);
     box-shadow: 0 10px 35px rgba(212, 175, 55, 0.25);
     width: 100%;
-    overflow: hidden;
 }
 
 .floral-frame {
@@ -56,19 +55,6 @@ body {
     border-radius: 20px;
     margin: 10px 0;
 }
-
-.corner-ornament {
-    position: absolute;
-    width: 65px;
-    height: 65px;
-    pointer-events: none;
-    z-index: 2;
-}
-
-.corner-ornament.top-left { top: 4px; left: 4px; }
-.corner-ornament.top-right { top: 4px; right: 4px; transform: scaleX(-1); }
-.corner-ornament.bottom-left { bottom: 4px; left: 4px; transform: scaleY(-1); }
-.corner-ornament.bottom-right { bottom: 4px; right: 4px; transform: scale(-1); }
 
 .arabic-top {
     font-size: 18px;
