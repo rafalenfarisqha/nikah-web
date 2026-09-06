@@ -33,7 +33,6 @@ body {
     display: none !important;
 }
 
-/* Bingkai Kartu Utama */
 .floral-frame,
 .invitation-container {
     position: relative;
@@ -58,37 +57,18 @@ body {
     margin: 10px 0;
 }
 
-/* Posisi Ukiran Daun Vektor di Sudut */
 .corner-ornament {
     position: absolute;
-    width: 45px;
-    height: 45px;
+    width: 65px;
+    height: 65px;
     pointer-events: none;
     z-index: 2;
 }
 
-.corner-ornament.top-left {
-    top: 6px;
-    left: 6px;
-}
-
-.corner-ornament.top-right {
-    top: 6px;
-    right: 6px;
-    transform: scaleX(-1);
-}
-
-.corner-ornament.bottom-left {
-    bottom: 6px;
-    left: 6px;
-    transform: scaleY(-1);
-}
-
-.corner-ornament.bottom-right {
-    bottom: 6px;
-    right: 6px;
-    transform: scale(-1);
-}
+.corner-ornament.top-left { top: 4px; left: 4px; }
+.corner-ornament.top-right { top: 4px; right: 4px; transform: scaleX(-1); }
+.corner-ornament.bottom-left { bottom: 4px; left: 4px; transform: scaleY(-1); }
+.corner-ornament.bottom-right { bottom: 4px; right: 4px; transform: scale(-1); }
 
 .arabic-top {
     font-size: 18px;
@@ -141,7 +121,6 @@ body {
     transform: scale(1.05);
 }
 
-/* Isi Halaman Utama Undangan */
 .header-section {
     margin-bottom: 20px;
 }
