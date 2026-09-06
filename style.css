@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: #f6f4f0;
-    color: #4a453f;
+    background-color: #1a1816;
+    color: #332d29;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,162 +15,176 @@ body {
     overflow-x: hidden;
 }
 
-/* Background dengan nuansa Islami & Elegan */
+/* Background dengan warna emas lebih mencolok & elegan */
 .screen {
     width: 100%;
     max-width: 480px;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fbf9f5 0%, #f0ece1 100%);
-    box-shadow: 0 0 25px rgba(0, 0, 0, 0.08);
+    background: linear-gradient(135deg, #fffdf9 0%, #f4eee1 100%);
+    box-shadow: 0 0 30px rgba(212, 175, 55, 0.3);
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px 20px;
+    padding: 25px 15px;
 }
 
 .hidden {
     display: none !important;
 }
 
-/* Halaman Pertama (Welcome Screen) */
+/* Halaman Pertama */
 .floral-frame {
     text-align: center;
-    border: 2px solid #d4af37;
-    padding: 40px 25px;
-    border-radius: 16px;
-    background: rgba(255, 255, 255, 0.85);
-    box-shadow: 0 10px 30px rgba(212, 175, 55, 0.15);
+    border: 3px solid #d4af37;
+    padding: 35px 20px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 10px 35px rgba(212, 175, 55, 0.3);
     width: 100%;
 }
 
-.bismillah {
-    font-family: 'Playfair Display', serif;
-    font-size: 15px;
-    color: #8c7853;
-    font-style: italic;
-    letter-spacing: 1px;
+.arabic-top {
+    font-size: 18px;
+    color: #b8860b;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 15px;
 }
 
 .welcome-title {
     font-family: 'Cinzel', serif;
-    font-size: 32px;
-    color: #2c2825;
-    margin: 15px 0 10px;
-    letter-spacing: 1.5px;
+    font-size: 34px;
+    color: #1a1816;
+    margin: 10px 0;
+    font-weight: 800;
+    letter-spacing: 1px;
 }
 
 .welcome-subtitle {
-    font-size: 14px;
+    font-size: 13px;
     color: #6b635b;
     margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
 }
 
 .couple-initials {
     font-family: 'Cinzel', serif;
-    font-size: 28px;
-    color: #bfa15f;
+    font-size: 24px;
+    color: #996515;
     margin-bottom: 30px;
     font-weight: bold;
 }
 
 #open-invitation-btn {
-    background-color: #8c7853;
+    background: linear-gradient(135deg, #d4af37 0%, #aa771c 100%);
     color: #ffffff;
     border: none;
-    padding: 12px 28px;
-    font-size: 14px;
-    font-weight: 500;
+    padding: 14px 32px;
+    font-size: 15px;
+    font-weight: 700;
     border-radius: 30px;
     cursor: pointer;
-    transition: background 0.3s ease, transform 0.2s;
+    box-shadow: 0 6px 15px rgba(170, 119, 28, 0.4);
     letter-spacing: 1px;
-    box-shadow: 0 4px 12px rgba(140, 120, 83, 0.3);
+    transition: transform 0.2s;
 }
 
 #open-invitation-btn:hover {
-    background-color: #6e5e3f;
-    transform: translateY(-2px);
+    transform: scale(1.05);
 }
 
 /* Halaman Utama Undangan */
 .invitation-container {
     width: 100%;
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px;
 }
 
 .header-section {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
 }
 
 .arabic-greeting {
     font-family: 'Playfair Display', serif;
-    font-size: 14px;
-    color: #8c7853;
-    margin-bottom: 12px;
-    font-weight: 600;
+    font-size: 13px;
+    color: #996515;
+    margin-bottom: 8px;
+    font-weight: 700;
 }
 
-.intro-text, .event-intro {
+.intro-text {
+    font-size: 12px;
+    color: #554d46;
+    margin-bottom: 12px;
+}
+
+/* Banner Khusus Keluarga Bani Mu'alim */
+.family-banner {
+    background: linear-gradient(135deg, #fff8dc 0%, #fef3c7 100%);
+    border: 1.5px solid #d4af37;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(212, 175, 55, 0.15);
+}
+
+.family-banner p {
     font-size: 13px;
-    color: #6b635b;
-    line-height: 1.6;
+    color: #4a3c11;
+    line-height: 1.5;
+    margin: 0;
 }
 
 .couple-section {
-    margin: 25px 0;
+    margin: 20px 0;
 }
 
 .bride h2, .groom h2 {
     font-family: 'Cinzel', serif;
-    font-size: 22px;
-    color: #2c2825;
-    margin-bottom: 5px;
-}
-
-.bride p, .groom p {
-    font-size: 12px;
-    color: #7a7067;
+    font-size: 20px;
+    color: #1a1816;
+    font-weight: 800;
 }
 
 .and-symbol {
     font-family: 'Playfair Display', serif;
-    font-size: 24px;
+    font-size: 22px;
     font-style: italic;
-    color: #bfa15f;
-    margin: 12px 0;
+    color: #d4af37;
+    margin: 8px 0;
 }
 
 .events-grid {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 12px;
     margin: 20px 0;
 }
 
 .event-card {
     background: #ffffff;
-    border: 1px solid #e3dec9;
-    padding: 18px;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+    border: 1.5px solid #e6d5b8;
+    padding: 14px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.04);
 }
 
 .event-card h3 {
     font-family: 'Cinzel', serif;
-    font-size: 14px;
-    color: #8c7853;
-    margin-bottom: 8px;
+    font-size: 13px;
+    color: #996515;
+    margin-bottom: 5px;
+    font-weight: 700;
     letter-spacing: 1px;
 }
 
 .event-card .date {
-    font-weight: 600;
+    font-weight: 700;
     font-size: 13px;
     color: #2c2825;
-    margin-bottom: 4px;
 }
 
 .event-card .time {
@@ -180,50 +194,60 @@ body {
 
 .location-section {
     background: #ffffff;
-    border: 1px solid #e3dec9;
-    padding: 15px;
-    border-radius: 12px;
-    margin-bottom: 25px;
+    border: 1.5px solid #e6d5b8;
+    padding: 12px;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .location-title {
     font-size: 13px;
-    color: #2c2825;
-    margin-bottom: 6px;
+    color: #1a1816;
+    margin-bottom: 4px;
 }
 
 .address {
     font-size: 12px;
-    color: #6b635b;
-    line-height: 1.5;
+    color: #554d46;
+    line-height: 1.4;
 }
 
 .closing-section {
-    margin-top: 20px;
     border-top: 1px dashed #d4af37;
-    padding-top: 20px;
+    padding-top: 15px;
 }
 
-.closing-text {
+.hosts {
+    margin-bottom: 10px;
+}
+
+.host-title {
     font-size: 12px;
     color: #6b635b;
-    line-height: 1.6;
-    margin-bottom: 15px;
+}
+
+.host-names {
+    font-size: 14px;
+    color: #1a1816;
+    margin-top: 2px;
 }
 
 .quran-quote {
     font-size: 11px;
     font-style: italic;
-    color: #7a7067;
-    line-height: 1.6;
-    background: rgba(212, 175, 55, 0.08);
-    padding: 15px;
+    color: #554d46;
+    line-height: 1.5;
+    background: rgba(212, 175, 55, 0.1);
+    padding: 12px;
     border-radius: 8px;
-    margin-top: 15px;
+    margin-top: 12px;
+    border-left: 3px solid #d4af37;
+    text-align: left;
 }
 
 .quran-quote footer {
-    margin-top: 8px;
-    font-weight: 600;
-    color: #8c7853;
+    margin-top: 6px;
+    font-weight: 700;
+    color: #996515;
+    text-align: right;
 }
