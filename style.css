@@ -6,8 +6,9 @@
 
 body {
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: #2b2621;
-    color: #4a423b;
+    /* Background luar halaman yang kalem dan menyatu */
+    background-color: #1f1c18;
+    color: #3b342e;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,8 +20,9 @@ body {
     width: 100%;
     max-width: 480px;
     min-height: 100vh;
-    background: linear-gradient(135deg, #fdfbf7 0%, #f4efe6 100%);
-    box-shadow: 0 0 30px rgba(184, 150, 95, 0.2);
+    /* Gradasi latar belakang kartu undangan yang natural (pasir hangat & champagne lembut) */
+    background: linear-gradient(135deg, #fbf9f4 0%, #f0ebd9 100%);
+    box-shadow: 0 0 40px rgba(168, 142, 95, 0.25);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -36,77 +38,79 @@ body {
 .floral-frame,
 .invitation-container {
     position: relative;
-    background: rgba(255, 255, 255, 0.95);
-    box-shadow: 0 8px 30px rgba(184, 150, 95, 0.15);
+    background: rgba(255, 255, 255, 0.92);
+    box-shadow: 0 10px 35px rgba(168, 142, 95, 0.15);
     width: 100%;
 }
 
 .floral-frame {
     text-align: center;
-    border: 2px solid #d4c39b;
+    border: 2px solid #c7b285;
     padding: 40px 20px;
-    border-radius: 16px;
+    border-radius: 18px;
 }
 
 .invitation-container {
     text-align: center;
-    border: 2px solid #d4c39b;
+    border: 2px solid #c7b285;
     padding: 30px 18px;
-    border-radius: 16px;
+    border-radius: 18px;
     margin: 10px 0;
 }
 
 .arabic-top {
     font-size: 16px;
-    color: #9c844e;
+    color: #947942;
     font-weight: 600;
     display: block;
     margin-bottom: 15px;
+    letter-spacing: 0.5px;
 }
 
 .welcome-title {
     font-family: 'Cinzel', serif;
     font-size: 32px;
-    color: #383028;
+    color: #2c2520;
     margin: 10px 0;
     font-weight: 700;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
 }
 
 .welcome-subtitle {
-    font-size: 13px;
-    color: #7d7065;
+    font-size: 12px;
+    color: #7a6e62;
     margin-bottom: 25px;
     text-transform: uppercase;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
 }
 
 .couple-initials {
     font-family: 'Cinzel', serif;
     font-size: 22px;
-    color: #9c844e;
+    color: #947942;
     margin-bottom: 30px;
     font-weight: 600;
+    letter-spacing: 1px;
 }
 
-/* Tombol dengan warna kalem, natural, & elegan */
+/* Tombol dengan warna emas perunggu yang elegan & lembut */
 #open-invitation-btn {
-    background: linear-gradient(135deg, #c5b078 0%, #a38c53 100%);
+    background: linear-gradient(135deg, #b89c62 0%, #8f7441 100%);
     color: #ffffff;
     border: none;
-    padding: 13px 30px;
+    padding: 13px 32px;
     font-size: 14px;
     font-weight: 600;
-    border-radius: 25px;
+    border-radius: 30px;
     cursor: pointer;
-    box-shadow: 0 4px 12px rgba(163, 140, 83, 0.25);
-    letter-spacing: 0.8px;
-    transition: transform 0.2s ease, background 0.2s ease;
+    box-shadow: 0 6px 18px rgba(143, 116, 65, 0.3);
+    letter-spacing: 1px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
 }
 
 #open-invitation-btn:hover {
-    background: linear-gradient(135deg, #b8a169, #947e46);
     transform: scale(1.03);
+    opacity: 0.95;
 }
 
 .header-section {
@@ -116,30 +120,30 @@ body {
 .arabic-greeting {
     font-family: 'Playfair Display', serif;
     font-size: 13px;
-    color: #9c844e;
+    color: #947942;
     margin-bottom: 8px;
     font-weight: 600;
 }
 
 .intro-text {
     font-size: 12px;
-    color: #6b5e53;
+    color: #63574c;
     line-height: 1.5;
     margin-bottom: 12px;
 }
 
 .family-banner {
-    background: linear-gradient(135deg, #faf5e6 0%, #f3ebd2 100%);
-    border: 1px solid #d4c39b;
+    background: linear-gradient(135deg, #f7f1e3 0%, #ece2cd 100%);
+    border: 1px solid #d4c29c;
     padding: 12px 15px;
     border-radius: 10px;
     margin-top: 10px;
-    box-shadow: 0 3px 8px rgba(184, 150, 95, 0.1);
+    box-shadow: 0 4px 10px rgba(168, 142, 95, 0.08);
 }
 
 .family-banner p {
     font-size: 13px;
-    color: #5c4d37;
+    color: #524436;
     line-height: 1.5;
     margin: 0;
 }
@@ -151,7 +155,7 @@ body {
 .bride h2, .groom h2 {
     font-family: 'Cinzel', serif;
     font-size: 19px;
-    color: #383028;
+    color: #2c2520;
     font-weight: 700;
 }
 
@@ -159,7 +163,7 @@ body {
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     font-style: italic;
-    color: #9c844e;
+    color: #947942;
     margin: 6px 0;
 }
 
@@ -171,8 +175,8 @@ body {
 }
 
 .event-card {
-    background: #ffffff;
-    border: 1px solid #e2d7c3;
+    background: #faf8f5;
+    border: 1px solid #e1d6c1;
     padding: 14px;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(0,0,0,0.02);
@@ -181,26 +185,26 @@ body {
 .event-card h3 {
     font-family: 'Cinzel', serif;
     font-size: 12px;
-    color: #9c844e;
+    color: #947942;
     margin-bottom: 5px;
     font-weight: 600;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
 }
 
 .event-card .date {
     font-weight: 600;
     font-size: 13px;
-    color: #383028;
+    color: #2c2520;
 }
 
 .event-card .time {
     font-size: 12px;
-    color: #7d7065;
+    color: #7a6e62;
 }
 
 .location-section {
-    background: #ffffff;
-    border: 1px solid #e2d7c3;
+    background: #faf8f5;
+    border: 1px solid #e1d6c1;
     padding: 12px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -208,18 +212,18 @@ body {
 
 .location-title {
     font-size: 13px;
-    color: #383028;
+    color: #2c2520;
     margin-bottom: 4px;
 }
 
 .address {
     font-size: 12px;
-    color: #6b5e53;
+    color: #63574c;
     line-height: 1.4;
 }
 
 .closing-section {
-    border-top: 1px dashed #d4c39b;
+    border-top: 1px dashed #c7b285;
     padding-top: 15px;
 }
 
@@ -229,31 +233,32 @@ body {
 
 .host-title {
     font-size: 12px;
-    color: #7d7065;
+    color: #7a6e62;
 }
 
 .host-names {
     font-size: 14px;
-    color: #383028;
+    color: #2c2520;
     margin-top: 2px;
+    font-weight: 600;
 }
 
 .quran-quote {
     font-size: 11px;
     font-style: italic;
-    color: #6b5e53;
+    color: #63574c;
     line-height: 1.5;
-    background: rgba(184, 150, 95, 0.07);
+    background: rgba(168, 142, 95, 0.06);
     padding: 12px;
     border-radius: 8px;
     margin-top: 12px;
-    border-left: 3px solid #b8965f;
+    border-left: 3px solid #947942;
     text-align: left;
 }
 
 .quran-quote footer {
     margin-top: 6px;
     font-weight: 600;
-    color: #9c844e;
+    color: #947942;
     text-align: right;
 }
